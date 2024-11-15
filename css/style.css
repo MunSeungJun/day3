@@ -1,0 +1,78 @@
+@charset "utf-8";
+
+:root{
+    --primary-color: rgb(235, 137, 221); 
+    --secondary-color: rgb(208, 117, 195);
+    --large-text: 20px;
+    --medium-text: 18px;
+    --small-text: 15px
+}
+
+
+
+.wrap{
+    width: 1000px;
+    margin: 0 auto;
+}
+.bi{
+    width: 100px;
+    margin: 0 auto;
+}
+.nav{
+    width: 204px;
+    margin: 0 auto;
+}
+.nav a{
+    font-size: var(--large-text);
+    color: var(--primary-color);
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.brand{
+    width: 600px;
+    margin: 0 auto;
+}
+.new h1{
+    font-size: var(--medium-text);
+    text-transform: capitalize;
+    text-align: center;
+}
+.new{
+    width: 606px;
+    margin: 0 auto;
+}
+.brand-text{
+    font-size: var(--small-text);
+    text-transform: uppercase;
+    word-break: break-all;
+    text-align: center;
+}
+.delivery hr{
+    background-color: var(--secondary-color);
+    height: 1px;
+    border: 0;
+}
+.delivery h2{
+    font-size: var(--medium-text);
+    text-transform: capitalize;
+    text-align: center;
+}
+.delivery p{
+    text-align: center;
+}
+.contact h3{
+    font-size: var(--large-text);
+    color: var(--secondary-color);
+    text-align: center;
+}
+.contact p{
+    text-align: center;
+}
+.copyright{
+    background-color: var(--secondary-color);
+}
+.copyright p{
+    text-transform: capitalize;
+    color: white;
+    text-align: center;
+}
